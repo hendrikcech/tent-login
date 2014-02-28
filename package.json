@@ -1,0 +1,20 @@
+{
+  "name": "tent-login",
+  "version": "0.1.0",
+  "description": "Utility to make Tent logins super easy for web apps.",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify index.js -s login | uglifyjs > umd.min.js"
+  },
+  "author": "Hendrik Cech",
+  "license": "MIT",
+  "dependencies": {
+    "tent-auth": "~0.2.5",
+    "concat-stream": "~1.4.1",
+    "debug": "~0.7.4"
+  }
+}

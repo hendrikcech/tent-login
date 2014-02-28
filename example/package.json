@@ -1,0 +1,16 @@
+{
+  "name": "example",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Hendrik Cech",
+  "license": "MIT",
+  "dependencies": {
+    "tent-discover-proxy": "~0.1.0",
+    "browserify": "~3.31.2",
+    "express": "~3.4.8"
+  }
+}
